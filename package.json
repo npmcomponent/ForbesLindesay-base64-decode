@@ -1,20 +1,9 @@
 {
-  "name": "base64-decode",
-  "version": "1.0.2",
+  "name": "forbeslindesay-base64-decode",
   "description": "Decode base-64 strings with JavaScript",
-  "main": "./server.js",
-  "scripts": {
-    "test": "component-install && component-build -s b && mocha -R spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ForbesLindesay/base64-decode.git"
-  },
-  "author": "ForbesLindesay",
-  "license": "MIT",
-  "devDependencies": {
-    "component": "*",
-    "mocha": "*",
-    "better-assert": "*"
+  "version": "1.0.2",
+  "keywords": [],
+  "dependencies": {
+    "ForbesLindesay-utf8-decode": "git://github.com/npmcomponent/ForbesLindesay-utf8-decode.git"
   }
 }
